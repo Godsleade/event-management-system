@@ -1,0 +1,63 @@
+body {
+    background-color: #060000d1;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2009b1;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h5 {
+    color: rgb(255, 98, 0);
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: rgb(255, 98, 0);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+#result, #result2 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #2c3e50;
+}

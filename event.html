@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT MANAGEMENT SYSTEM</title>
+    <link rel="stylesheet" href="event.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body style="background-color: black; margin: 50px; font-family: ubuntu;">
+      <div class="container">
+    <h1 style="color: rgb(255, 98, 0);">EVENT MANAGEMENT SYSTEM</h1>
+
+    <!-- Add an attendee Section -->
+    <div class="form-section ">
+        <h5>Add A New Attendee</h5>
+        <input type="text" id="attendee-name" placeholder="Enter attendee name" class="w-100">
+        <button id= "new_attendee_btn">Add Attendee</button>
+    </div>
+
+    <!-- Find Attendee Section -->
+    <div class="form-section">
+        <h5>Find an attendee</h5>
+        <input type="text" id="findAttendee" placeholder="Enter attendee name" class="w-100">
+        <button id="findAttendeeBtn">Find Attendee</button>
+        <div id="result"></div>
+    </div>
+
+     <!-- Display All Attendees Section -->
+    <div class="form-section">
+        <h5>All Attendees</h5>
+        <button id="listAllAttendee_btn">Show All Attendees</button>
+        <div id="result2"></div>
+    </div>
+
+    <!-- Remove an attendee Section -->
+    <div class="form-section">
+        <h5>Remove an attendee</h5>
+        <input type="text" id="removeAttendeeName" placeholder="Enter attendee name" class="w-100">
+        <button id="removeAttendee_btn">Remove Attendee</button>
+    </div>
+</div>
+<script src="event.js"></script>
+</body>
+</html>
